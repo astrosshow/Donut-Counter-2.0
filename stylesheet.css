@@ -1,0 +1,10 @@
+body {
+    background-color: #8ed2c9;
+}
+
+#box {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #00aaa0;
+    border-radius: 5px;
+}

@@ -1,0 +1,55 @@
+[Start]
+   |
+   v
+[Step 1: Start Page with Single 'Start' Button]
+  - Framework: HTML5, CSS3, Bootstrap
+  - Logic: JavaScript (Button click event)
+   |
+   v
+[Step 2: Collect Donut Images for Training Model]
+  - Capture photos of different donut types (from different angles and lighting conditions)
+   |
+   v
+[Step 3: Label and Annotate Donut Images]
+  - Tool: LabelImg, RectLabel (for bounding box annotation)
+   |
+   v
+[Step 4: Train AI Model (Image Classification or Object Detection)]
+  - Option 1: Google Colab (with free GPU)
+  - Option 2: Local Machine (if you have a powerful GPU)
+  - Framework: TensorFlow/PyTorch (train with labeled donut images)
+   |
+   v
+[Step 5: Convert Trained Model to TensorFlow.js Format]
+  - Tool: TensorFlow.js Converter
+   |
+   v
+[Step 6: User Presses Start - Camera Scanner Opens]
+  - Tool: JavaScript, getUserMedia API (to access camera)
+   |
+   v
+[Step 7: Capture Frame from Video Stream and Scan Donuts]
+  - Tool: Canvas API (to capture video frames)
+   |
+   v
+[Step 8: Run AI Model Locally to Count Donuts]
+  - Library: TensorFlow.js (to detect and count donuts in real-time)
+   |
+   v
+[Step 9: Display Results (List of Donut Types and Counts)]
+  - Framework: Bootstrap (for mobile-responsive list display)
+   |
+   v
+[Step 10: Add 'Scan Again' Button]
+  - Tool: JavaScript (to reset scanner and start new scan)
+   |
+   v
+[Step 11: User Presses 'Scan Again' - Reopen Camera Scanner]
+  - Tool: getUserMedia API (reopen camera feed)
+   |
+   v
+[Step 12: Repeat Scanning and Display Updated Results]
+  - Logic: Capture frame -> Run AI model -> Display new count
+   |
+   v
+[End]
